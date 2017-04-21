@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"> <!--该段代码使用HTML5的声明-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> <!--该meta标签的作用是让当前viewport的宽度等于设备的宽度，同时不允许用户手动缩放。-->
+<title>Sudoku</title>
+<style>
+       .warp{
+       padding: 1.6% 0 0 0; 
+       } 
+       .square{
+       background-color: yellow;
+       width: 30%;
+       padding: 30% 0 0 0;
+       margin: 0 1.6% 3% 1.6%;
+       float: right;
+       border-radius: 10%;
+       }
+</style><!--使用px单位无法自适应，改为使用百分比。square的左右方向共6个margin填充，所以宽度为（100%-3*30%）/6=1.6%，竖直方向上margin会发生重叠所以为2倍左右方向上的margin。border-radius为倒圆角。-->
+</head><!--当padding和margin为竖直方向上时，用百分比作为单位，会按照父级元素作为百分比的缩放标准，所以30%padding使square的长和宽相等。-->
+<body>
+<div class="warp">
+     <div class="square"></div>
+     <div class="square"></div>
+     <div class="square"></div>
+     <div class="square"></div>
+     <div class="square"></div>
+     <div class="square"></div>
+     <div class="square"></div>
+     <div class="square"></div>
+     <div class="square"></div>
+</div>
+</body>
+</html>
