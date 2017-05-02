@@ -1,0 +1,39 @@
+*{
+	background-color: #68cdd5;
+}
+.head{
+	margin: 2% 0 0 2%;
+}
+.head img{
+	width: 28px;
+	height:28px;
+}
+.logo{
+	text-align: center;
+	margin:20% 0 20% 0; 
+}
+.logo img{
+	width: 139px;
+	height: 55px;
+}
+.main{
+	color: white;
+	font-family: arial;
+	padding: 0 10% 20% 10%;
+}
+.joinus{
+	float: left;
+	margin:0 0 20% 10%;
+}
+.joinus img{
+	width: 81px;
+    height: 85px;
+}
+.branding{
+	float: right;
+	margin:0 10% 30% 0;
+}
+.branding img{
+	width: 71px;
+	height: 92px;
+}
